@@ -117,10 +117,12 @@ textarea:focus {
     color: #C9C9DE;
     text-align: right;
     font-style: italic;
-    padding: 5px;
+    padding-right: 5px;
 }
 
-
+textarea::placeholder {
+    text-align: left;
+}
 
 textarea {
     display: block;
