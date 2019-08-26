@@ -71,7 +71,7 @@ button {
     transition-duration: .5s;
 }
 
-button:active {
+button:hover {
     background-color: #D8ADE5;
     color: #27384A;
     border: solid #B93EDD 2px;
@@ -89,6 +89,10 @@ fieldset {
     flex-direction: column;
     align-items: stretch;
     justify-content: flex-start;
+}
+
+.item {
+    margin-bottom: 5px;
 }
 
 .item > input {
