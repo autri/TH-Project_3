@@ -226,9 +226,9 @@
    * Correct the padding in Firefox.
    */
   
-  fieldset {
+ /* fieldset {
     padding: 0.35em 0.75em 0.625em;
-  }
+  } */
   
   /**
    * 1. Correct the text wrapping in Edge and IE.
@@ -237,14 +237,16 @@
    *    `fieldset` elements in all browsers.
    */
   
+
   legend {
-    box-sizing: border-box; /* 1 */
-    color: inherit; /* 2 */
-    display: table; /* 1 */
-    max-width: 100%; /* 1 */
-    padding: 0; /* 3 */
-    white-space: normal; /* 1 */
+    box-sizing: border-box; 
+    color: inherit; 
+    display: table; 
+    max-width: 100%; 
+    padding: 0; 
+    white-space: normal; 
   }
+
   
   /**
    * Add the correct vertical alignment in Chrome, Firefox, and Opera.
